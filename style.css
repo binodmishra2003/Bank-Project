@@ -1,0 +1,144 @@
+*{
+	margin:0;
+	padding:0;
+}
+body
+{
+	font-family:serif;
+}
+#nav-bar
+{
+	background-color:#7e7e7e;
+	position: sticky;
+	top:0;
+	float: right;
+}
+.nav-link:hover{
+    background-color:rgb(61, 61, 61);
+}
+.navbar
+{
+	
+    padding: 0 !important;
+}
+navbar-brand img
+{
+	height:40px;
+	padding-left:20px;
+}
+.navbar-nav li
+{
+	padding: 0 1px;
+}
+.navbar-nav li a
+{
+color:#fff !important;
+font-weight:600;
+float:right;
+text-align:left;
+}
+.fa-bars
+{
+	color:#fff;
+	font-size:30p !important;
+}
+.navbar-toggler
+{
+	outline:none !important;
+}
+/*---banner section--*/
+#main
+{
+text-align: center;
+background-color:#030303;
+color:#fff;
+padding-top:3%;	
+padding-bottom: 0.1%;
+}
+.container h1 img{
+	padding-bottom: 10px;
+}
+
+
+/*---service section---*/
+#features1
+{
+	color: #fff;
+	text-align: center;
+	padding: 10% 15%;
+}
+ #features
+ {
+     text-align: center;
+	 padding: 10% 15%; 
+	 background-image: url('images/bankpic.png');
+	 background-attachment: fixed;
+	background-size: cover;
+	 
+	
+ }
+ .features1 h3
+{
+	
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+
+.features h3
+{
+	
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+.title::before
+{
+	content:'';
+	background:#6b68ff;
+	height:5px;
+	width:500px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(90px);
+}
+#features .btn-primary
+{
+	box-shadow:none;
+	padding:10px 25px;
+	border:none;
+	align-content: center;
+	
+}
+/* Action*/
+  #action{
+    background-color:#131313;
+    padding: 3% 15%;
+    text-align: center;
+    line-height: 1.5;
+    color: #fff;
+  }
+  .main{
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 0.1px 0px;
+  }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* footer */
+#footer{
+	background-color:#030303;
+    color:#fff;
+    padding: 5% 0.3%;
+    text-align: center;
+}
+
